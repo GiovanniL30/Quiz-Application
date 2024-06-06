@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.range-input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 0; /* Hide the thumb */
+  height: 0; /* Hide the thumb */
+}
+
+.range-input::-webkit-slider-runnable-track {
+  background: #193774; /* Tailwind gray-600 for progress */
+}
